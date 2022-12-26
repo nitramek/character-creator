@@ -1,6 +1,15 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  isolation: isolate;
+}
+
+.perspectiveDecoration {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  bottom: 0;
 }
 
 .maxWidthWrapper {
